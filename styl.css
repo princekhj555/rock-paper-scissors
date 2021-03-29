@@ -1,0 +1,115 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: #212930;
+}
+header{
+    background:#f5f5f5;text-align: center;
+    padding: 25px;
+}
+header.h1{
+    
+    color: #1c1a1a;
+    font-family: Asap,sans-serif;
+}
+.score-board{
+    margin: 20px auto;
+    border: 5px solid white;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    color: white; 
+    font-size: 45px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+.badges{
+    background: #80081a;
+    color:white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: sans-serif;
+}
+#user-label{
+    position: absolute;
+    top: 34px;
+    left: -35px;
+}
+#computer-label{
+    position: absolute;
+    top: 34px;
+    right: -39px;
+   
+}
+.result{
+    font: 45px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: Asap,sans-serif;
+}
+.choices{
+    text-align: center;
+    margin: 60px 0px;
+}
+.choice{
+    display: inline-block;
+    border: 7px solid white;
+    border-radius: 50%;
+    background-color: #767871;
+    padding: 10px;
+    margin: 0px 20px;
+    transition: all 0.7s ease;
+}
+img{
+    padding: 16px;
+}
+.choice:hover{
+    cursor: pointer;
+    background: #377680;
+}
+.action-message{
+text-align: center;
+font-size: 22px;
+font-family: sans-serif;
+color: white;
+}
+.green-glow{
+border: 7px solid #15e815;
+box-shadow: 0 0 15px #014d01;
+}
+.red-glow{
+    border: 7px solid #f71111;
+    box-shadow: 0 0 15px #780606;
+}
+.grey-glow{
+    border: 7px solid #706c6c;
+    box-shadow: 0 0 15px #302f2f;
+}
+
+.contact
+{
+    margin-top: 16px;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+   align-items: center; 
+}
+footer{
+    margin-right: 25px;
+    text-align: right;
+    color: white;
+    font-size: 22px;
+
+}
+
+
+
+
